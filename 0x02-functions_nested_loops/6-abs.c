@@ -9,7 +9,7 @@
  */
 int _abs(int i)
 {
-	if (i >= 8)
+	if (i >= 0)
 	{
 		return (i);
 	}
@@ -18,4 +18,3 @@ int _abs(int i)
 		return (i * -1);
 	}
 }
-
